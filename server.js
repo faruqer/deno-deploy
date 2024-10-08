@@ -18,6 +18,10 @@ app.post("/test", (req, res)=>{
   res.redirect(`/about?name=${name}`)
 })
 
+app.get("/gg", (req, res)=>{
+  res.send("<h1>Hi from osama</h1>")
+})
+
 app.get("/about", (req, res)=>{
   res.send(`Hey ${req.query.name}`)
 })
