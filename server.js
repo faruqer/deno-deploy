@@ -1,5 +1,5 @@
 import express from "npm:express@4.18.2";
-
+import ejs from "npm:ejs@3.1.8";
 
 const app = express();
 app.set("view engine", "ejs");
